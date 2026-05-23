@@ -177,3 +177,16 @@ form .form-help :where(label, a) {
         margin: 25px 0 40px;
     }
 }
+
+#message{
+    background: #ff4e4e;
+    color: white;
+    text-align: 20px;
+}
+#alertBox{
+    pisition: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
