@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tisa Resto Jogja - Makanan Tradisional Jogja</title>
+    <title>Bistro Elegance - Fine Dining Experience</title>
     <link rel="stylesheet" href="tooplate-bistro-elegance.css">
 <!--
 
@@ -38,23 +38,13 @@ Free HTML CSS Template
                     <circle cx="20" cy="23" r="1" fill="#e74c3c" opacity="0.6"/>
                     <circle cx="23" cy="24" r="1" fill="#e74c3c" opacity="0.6"/>
                 </svg>
-                <span>Tisa Resto Jogja</span>
+                <span>Bistro Elegance</span>
             </a>
             <ul class="nav-links">
-                <li><a href="#home" class="active">Beranda</a></li>
+                <li><a href="#home" class="active">Home</a></li>
                 <li><a href="#menu">Menu</a></li>
-                <li><a href="#reservation">Reservasi</a></li>
-                <li><a href="#contact">Telepon</a></li>
-            <nav class="nav-main">
-                <a href="#collections">Collections</a>
-                <a href="#story">Our Story</a>
-                <a href="#craftsmanship">Craftsmanship</a>
-                <a href="#contact">Visit Us</a>
-                <a href="#contact" class="nav-cta">Book </a>
-                <p id="userInfo">Belum login</p>
-<div id="authArea">
-    <button onclick="goLogin()" class="nav-cta">Login</button>
-</div>
+                <li><a href="#reservation">Reservations</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="menu-toggle">
                 <span></span>
@@ -70,69 +60,72 @@ Free HTML CSS Template
         <div class="static-decoration"></div>
         <div class="bottom-right-decoration"></div>
         <div class="hero-content">
-            <h1>Selamat Datang Di Tisa Resto Jogja</h1>
+            <h1>Welcome to Bistro Elegance</h1>
             <p>
-                <span class="text-option">Rasakan keunggulan kuliner dalam suasana yang penuh keanggunan dan kemewahan</span>
-                <span class="text-option">Temukan cita rasa istimewa yang dibuat dengan penuh ketelitian</span>
-                <span class="text-option">Tempat di mana santapan mewah bertemu dengan momen-momen tak terlupakan</span>
+                <span class="text-option">Experience culinary excellence in an atmosphere of refined sophistication</span>
+                <span class="text-option">Discover exquisite flavors crafted with passion and precision</span>
+                <span class="text-option">Where fine dining meets unforgettable moments</span>
             </p>
-            <a href="#reservation" class="cta-btn">Reservasi Meja Anda</a>
+            <a href="#reservation" class="cta-btn">Reserve Your Table</a>
         </div>
     </section>
-        <h2>Tentang Kami</h2>
-      <h3>Selamat Datang Di Tisa resto ✦</h3> 
-            <p>Tisa Resto adalah tempat di mana cita rasa berkualitas bertemu dengan suasana yang nyaman. Kami percaya bahwa makanan yang baik adalah awal dari cerita yang hebat. Berawal dari kecintaan kami terhadap kuliner, kami hadir untuk menyajikan hidangan berkualitas yang dibuat dengan bahan-bahan segar pilihan dan penuh cinta. Bukan hanya sekadar tempat makan, kami ingin menjadi ruang nyaman bagi Anda untuk berbagi momen berharga bersama teman, keluarga, dan orang-orang tersayang. Yuk, buat momen manismu di sini!</p>
-    
+
     <!-- Menu Section -->
     <section id="menu">
-        <h2>Menu Kami</h2>
+        <h2>Our Signature Menu</h2>
         <div class="menu-grid">
             <div class="menu-item">
                 <img src="https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=400&h=200&fit=crop&crop=center" alt="Truffle Risotto" class="menu-item-image">
                 <div class="menu-item-content">
-                    <h3>Gudeg</h3>
-                    <p>Gudeg manis dengan lauk ayam dan telur bebek dengan krecek pedas</p>
-                    <div class="price">Rp 50.000</div>
+                    <h3>Truffle Risotto</h3>
+                    <p>Creamy arborio rice with black truffle, parmesan, and fresh herbs</p>
+                    <div class="price">$32</div>
+                    <button class="ingredients-btn" onclick="showIngredients('truffle-risotto')">View Ingredients</button>
                 </div>
             </div>
             <div class="menu-item">
                 <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&h=200&fit=crop&crop=center" alt="Grilled Salmon" class="menu-item-image">
                 <div class="menu-item-content">
-                    <h3>Tongseng Daging Kambing</h3>
-                    <p>Gurih, manis, dan sedikit pedas, berpadu dengan aroma rempah yang kuat dan kuah kaldu yang segar dari potongan tomat</p>
-                    <div class="price">Rp 28.000</div>
+                    <h3>Grilled Salmon</h3>
+                    <p>Atlantic salmon with lemon butter sauce and seasonal vegetables</p>
+                    <div class="price">$28</div>
+                    <button class="ingredients-btn" onclick="showIngredients('grilled-salmon')">View Ingredients</button>
                 </div>
             </div>
             <div class="menu-item">
                 <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&h=200&fit=crop&crop=center" alt="Beef Wellington" class="menu-item-image">
                 <div class="menu-item-content">
-                    <h3>Bakmi Godog</h3>
-                    <p>kuah kaldu ayam kampung yang gurih, kental, dan creamy dengan sentuhan rasa manis khas Jawa yang berpadu dengan wangi rempah seperti bawang putih dan kemiri</p>
-                    <div class="price">Rp 23.0000</div>
+                    <h3>Beef Wellington</h3>
+                    <p>Premium beef tenderloin wrapped in puff pastry with mushroom duxelles</p>
+                    <div class="price">$45</div>
+                    <button class="ingredients-btn" onclick="showIngredients('beef-wellington')">View Ingredients</button>
                 </div>
             </div>
             <div class="menu-item">
-                <img src="https://github.com/user-attachments/assets/94e97090-c7df-434b-8482-ea856687c337?w=400&h=200&fit=crop&crop=center"alt="Lobster Thermidor" class="menu-item-image">
+                <img src="https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=400&h=200&fit=crop&crop=center" alt="Lobster Thermidor" class="menu-item-image">
                 <div class="menu-item-content">
-                    <h3>Kipo</h3>
-                    <p>Perpaduan rasa manis, legit, dan sedikit gurih dengan tekstur sedikit kenyal</p>
-                    <div class="price">Rp 10.000</div>
+                    <h3>Lobster Thermidor</h3>
+                    <p>Fresh lobster in cognac cream sauce with gruyere cheese</p>
+                    <div class="price">$52</div>
+                    <button class="ingredients-btn" onclick="showIngredients('lobster-thermidor')">View Ingredients</button>
                 </div>
             </div>
             <div class="menu-item">
                 <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=200&fit=crop&crop=center" alt="Duck Confit" class="menu-item-image">
                 <div class="menu-item-content">
-                    <h3>Jadah Tempe</h3>
-                    <p>Perpaduan unik gurihnya jadah dan legit manisnya tempe bacem</p>
-                    <div class="price">Rp 20.000</div>
+                    <h3>Duck Confit</h3>
+                    <p>Slow-cooked duck leg with garlic potatoes and cherry reduction</p>
+                    <div class="price">$38</div>
+                    <button class="ingredients-btn" onclick="showIngredients('duck-confit')">View Ingredients</button>
                 </div>
             </div>
             <div class="menu-item">
                 <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=200&fit=crop&crop=center" alt="Chocolate Soufflé" class="menu-item-image">
                 <div class="menu-item-content">
-                    <h3>Roti Kembang Waru</h3>
-                    <p>Manis yang legit dan pas, berpadu dengan gurih santan</p>
-                    <div class="price">Rp 5.000</div>
+                    <h3>Chocolate Soufflé</h3>
+                    <p>Warm chocolate soufflé with vanilla ice cream and berry coulis</p>
+                    <div class="price">$16</div>
+                    <button class="ingredients-btn" onclick="showIngredients('chocolate-souffle')">View Ingredients</button>
                 </div>
             </div>
         </div>
@@ -142,10 +135,10 @@ Free HTML CSS Template
     <section id="reservation">
         <div class="reservation">
             <div class="reservation-left">
-                <h2>Buat Reservasi Meja</h2>
+                <h2>Make a Reservation</h2>
                 <form class="reservation-form" onsubmit="handleReservation(event)">
                     <div class="form-group">
-                        <label for="name">Nama</label>
+                        <label for="name">Full Name</label>
                         <input type="text" id="name" name="name" required>
                     </div>
                     <div class="form-group">
@@ -153,49 +146,47 @@ Free HTML CSS Template
                         <input type="email" id="email" name="email" required>
                     </div>
                     <div class="form-group">
-                        <label for="phone">Nomor Telepon</label>
+                        <label for="phone">Phone Number</label>
                         <input type="tel" id="phone" name="phone" required>
                     </div>
                     <div class="form-group">
-                        <label for="date">Tanggal</label>
+                        <label for="date">Date</label>
                         <input type="date" id="date" name="date" required>
                     </div>
                     <div class="form-group">
-                        <label for="time">Waktu</label>
+                        <label for="time">Time</label>
                         <select id="time" name="time" required>
-                            <option value="">Pilih Waktu</option>
-                            <option value="17:00">09:00</option>
-                            <option value="17:30">10:00</option>
-                            <option value="18:00">13:00</option>
-                            <option value="18:30">14:00</option>
-                            <option value="19:00">16:00</option>
-                            <option value="19:30">17:00</option>
-                            <option value="20:00">19:00</option>
-                            <option value="20:30">20:00</option>
-                            <option value="21:00">21:00</option>
+                            <option value="">Select Time</option>
+                            <option value="17:00">5:00 PM</option>
+                            <option value="17:30">5:30 PM</option>
+                            <option value="18:00">6:00 PM</option>
+                            <option value="18:30">6:30 PM</option>
+                            <option value="19:00">7:00 PM</option>
+                            <option value="19:30">7:30 PM</option>
+                            <option value="20:00">8:00 PM</option>
+                            <option value="20:30">8:30 PM</option>
+                            <option value="21:00">9:00 PM</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="guests">Jumlah Tamu</label>
+                        <label for="guests">Number of Guests</label>
                         <select id="guests" name="guests" required>
-                            <option value="">Pilih Jumlah</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
+                            <option value="">Select Guests</option>
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guests</option>
+                            <option value="3">3 Guests</option>
+                            <option value="4">4 Guests</option>
+                            <option value="5">5 Guests</option>
+                            <option value="6">6 Guests</option>
+                            <option value="7">7 Guests</option>
+                            <option value="8">8 Guests</option>
                         </select>
                     </div>
                     <div class="form-group full-width">
-                        <label for="special">Catatan atau Permintaan khusus</label>
-                        <textarea id="special" name="special" rows="5" placeholder="Apakah jumlah anda lebih dari 10 atau ada acara khusus?"></textarea>
+                        <label for="special">Special Requests</label>
+                        <textarea id="special" name="special" rows="5" placeholder="Any dietary restrictions or special occasions?"></textarea>
                     </div>
-                    <button type="submit" class="submit-btn">Reservasi Meja</button>
+                    <button type="submit" class="submit-btn">Reserve Table</button>
                 </form>
             </div>
             <div class="reservation-right">
@@ -208,42 +199,50 @@ Free HTML CSS Template
     <footer id="contact">
         <div class="footer-content">
             <div class="footer-section">
-                <h3>Hubungi Kami</h3>
-                <p>Telepon: (869) 123-4567<br>
-                Email: info@tisarestojogja.com<br>
-                Jl.Sidobali No.1, Muja Muju, Kec Umbulharjo<br>
-                Kota Yogyakarta, Daerah Istimewa Yogyakarta, 55165</p>
+                <h3>Contact Us</h3>
+                <p>123 Culinary Street<br>
+                Gourmet District, GD 12345<br>
+                Phone: (555) 123-4567<br>
+                Email: info@bistroelegance.com</p>
             </div>
             <div class="footer-section">
-                <h3>Jam Buka</h3>
-                <p>Senin - Jumat: 08:30 - 22:30<br>
-                Sabtu - Minggu: 08:30 - 23:00<br>
+                <h3>Opening Hours</h3>
+                <p>Monday - Thursday: 5:00 PM - 10:00 PM<br>
+                Friday - Saturday: 5:00 PM - 11:00 PM<br>
+                Sunday: 5:00 PM - 9:00 PM<br>
+                Closed on major holidays</p>
             </div>
             <div class="footer-section">
-                <h3>Ikuti Sosial Media Kami</h3>
+                <h3>Follow Us</h3>
                 <p><a href="#">Facebook</a><br>
                 <a href="#">Instagram</a><br>
                 <a href="#">Twitter</a><br>
                 <a href="#">LinkedIn</a></p>
             </div>
-            <div class="footer-section">
-                <h3>Peta</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.8996318537265!2d110.39538499999999!3d-7.800449999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57669d43fe55%3A0x75fae1bb400d4da5!2sSMA%20Negeri%208%20Yogyakarta!5e0!3m2!1sid!2sid!4v1779547520065!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-             </div>
+        </div>
         <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #555; text-align: center;">
-            <p>&copy;2026 Tisa Resto Jogja. Semua hak dilindungi undang-undang.</p>
+            <p>&copy; 2026 Bistro Elegance. All rights reserved.</p>
             <div class="footer-links">
-                <a href="#">Kebijakan Privasi</a>
+                <a href="#">Privacy Policy</a>
                 <span>|</span>
-                <a href="#">Syarat & Ketentuan</a>
+                <a href="#">Terms & Conditions</a>
                 <span>|</span>
-                <a href="#">Peta</a>
+                <a href="#">Sitemap</a>
                 <span>|</span>
-                <a rel="nofollow noopener" href="https://kawaishanio-design.github.io/RitiMedi.com/" target="_blank">Dirancang oleh Shabrina Yuniati(36)</a>
+                <a rel="nofollow noopener" href="https://www.tooplate.com" target="_blank">Designed by Tooplate</a>
             </div>
         </div>
     </footer>
-    <script src="template-maison-doree.js"></script>
-      <script src="login/js/welcome.js"></script>
+
+    <!-- Ingredients Modal -->
+    <div id="ingredientsModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3 id="modalTitle">Dish Ingredients</h3>
+            <ul id="ingredientsList" class="ingredient-list"></ul>
+        </div>
+    </div>
+
+<script src="tooplate-bistro-scripts.js"></script>
 </body>
 </html>
